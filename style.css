@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(53, 32, 100);
+}
+
+.container .up {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.container .up {}
+
+.container .up .logo a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .up .icons a i {
+    font-size: 14px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.container .up .icons a {
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+/* Icons */
+
+.fa-facebook-f {
+    color: #fff;
+    background-color: blue;
+
+}
+
+.fa-facebook-f:hover {
+    background-color: rgb(118, 118, 173);
+}
+
+.fa-twitter {
+    color: #fff;
+    background-color: rgb(96, 96, 228);
+}
+
+.fa-twitter:hover {
+    background-color: blue;
+}
+
+.fa-instagram {
+    color: #fff;
+    background-color: rgb(224, 107, 107);
+}
+
+.fa-instagram:hover {
+    background-color: rgb(247, 5, 5);
+}
+
+.fa-linkedin-in {
+    color: #fff;
+    background-color: rgb(2, 2, 202);
+}
+
+.fa-linkedin-in:hover {
+    background-color: rgb(85, 85, 235);
+}
+
+.fa-youtube {
+    color: #fff;
+    background-color: rgb(243, 79, 79);
+}
+
+.fa-youtube:hover {
+    background-color: red;
+}
+
+/* end icons */
+
+
+
+
+
+
+.container .linkes_box {
+    display: flex;
+}
